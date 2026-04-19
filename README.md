@@ -7,7 +7,7 @@ An interactive web-based dashboard for analyzing historical climate data and pre
 ## 🚀 Live Demo
 
 👉 **Open the app here:**
-[https://your-app-name.streamlit.app](https://iotdailydelhiclimate-6zcjwo5d9pqdfyzvamk8xg.streamlit.app/)
+[https://iotdailydelhiclimate.streamlit.app](https://iotdailydelhiclimate-6zcjwo5d9pqdfyzvamk8xg.streamlit.app/)
 > This app is deployed using **Streamlit Community Cloud** and can be accessed from any device (mobile, tablet, or desktop).
 
 ---
