@@ -77,9 +77,11 @@ min_date = df["date"].min().date()
 max_date = df["date"].max().date()
 
 date_range = st.sidebar.date_input(
-    "Select Date Range",
-    [min_date, max_date],
-    help="Choose the start and end dates to filter the displayed climate records."
+    "Select Historical Date Range",
+    value=(min_date, max_date),
+    min_value=min_date,
+    max_value=max_date,
+    help="Dataset covers: 1 Jan 2013 – 24 Apr 2017 (Delhi, India)"
 )
 
 selected_variable = st.sidebar.selectbox(
