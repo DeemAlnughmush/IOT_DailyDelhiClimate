@@ -31,7 +31,7 @@ def load_models():
         "Temperature": joblib.load("temp_model.pkl"),
         "Humidity": joblib.load("humidity_model.pkl"),
         "Wind Speed": joblib.load("wind_model.pkl"),
-        # Pressure model موجود عندك، لكن مستبعد من التوقع النهائي لضعف الأداء
+        # Pressure model موجود لكن مستبعد من التوقع النهائي لضعف الأداء
         # "Pressure": joblib.load("pressure_model.pkl"),
     }
 
@@ -94,9 +94,9 @@ st.sidebar.caption(f"Variable info: {description_map[selected_variable]}")
 st.sidebar.markdown("---")
 st.sidebar.subheader("Team Members")
 st.sidebar.markdown("""
-- Deem Ali – 44XXXXXXX  
-- Student 2 – 44XXXXXXX  
-- Student 3 – 44XXXXXXX  
+- Deem Ali Alnughmush – 421201996  
+- Fay Alsalhi – 422205635  
+- Rahaf Saud Alharbi – 431201565  
 """)
 
 # ---------------------------
